@@ -1,0 +1,171 @@
+html, body {
+    height: 100%; /* Garante que o corpo e o HTML ocupem a altura total da tela */
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* Permite que a seção principal expanda para preencher o espaço disponível */
+}
+
+header {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px;
+}
+
+header h1 {
+    text-align: center;
+    margin: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 16px;
+    border-radius: 12px;
+    background-color: #0056b3;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.intro {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.foto-perfil {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 1em;
+}
+
+.linguagens {
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    width: fit-content;
+    margin: 10px;
+    position: relative;
+    left: 20px;
+}
+
+.planos-estudos {
+    padding: 20px;
+    border: 2px solid #007bff; 
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: transparent; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.planos-estudos h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #007bff; 
+    padding-bottom: 5px;
+}
+
+.projects {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.projects h2 {
+    text-align: center;
+}
+
+.project-item {
+    margin-bottom: 20px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
+.project-item a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-item a:hover {
+    text-decoration: underline;
+}
+
+.project-details,
+.project-usage {
+    margin-top: 10px;
+}
+
+.project-details ul,
+.project-usage ul {
+    padding: 0;
+    list-style: none;
+}
+
+.project-details li,
+.project-usage li {
+    margin-bottom: 5px;
+}
+
+.contact {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.contact img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+footer {
+    color: #000; /* Cor do texto do rodapé */
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    background-color: transparent; 
+    margin-top: auto; 
+}
